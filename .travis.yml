@@ -11,7 +11,7 @@ script:
 
 after_success:
   - docker build -t rafeeqce/multi-client ./client
-  - docker build -t rafeqece/multi-nginx ./nginx
+  - docker build -t rafeeqce/multi-nginx ./nginx
   - docker build -t rafeeqce/multi-server ./server
   - docker build -t rafeeqce/multi-worker ./worker
 

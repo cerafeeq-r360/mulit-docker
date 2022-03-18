@@ -19,5 +19,5 @@ after_success:
 
   - docker push rafeeqce/multi-client
   - docker push rafeeqce/multi-nginx
-  - docker push rafeeqce/mulit-server
+  - docker push rafeeqce/multi-server
   - docker push rafeeqce/multi-worker
